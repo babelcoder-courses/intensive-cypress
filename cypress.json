@@ -1,0 +1,13 @@
+{
+  "component": {
+    "componentFolder": "src",
+    "testFiles": "./cypress/*spec.tsx",
+    "viewportHeight": 500,
+    "viewportWidth": 700
+  },
+  "env": {
+    "apiUrl": "https://jsonplaceholder.typicode.com"
+  },
+  "video": false,
+  "screenshotOnRunFailure": false
+}
