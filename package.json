@@ -19,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test ./src/__tests__/ --testMatch='**/__tests__/**/*.spec.ts?(x)'",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cypress:open-ct": "cypress open-ct"
   },
   "eslintConfig": {
     "extends": [
@@ -40,10 +41,14 @@
     ]
   },
   "devDependencies": {
+    "@cypress/react": "^5.9.3",
+    "@cypress/webpack-dev-server": "^1.4.0",
+    "@testing-library/cypress": "^8.0.0",
     "@types/axios": "^0.14.0",
     "@types/styled-components": "^5.1.12",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
+    "cypress": "^8.2.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-react-app": "^6.0.0",
