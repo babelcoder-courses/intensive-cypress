@@ -6,7 +6,7 @@ import { Todo } from './Todo';
 const TODOS_URL = 'https://jsonplaceholder.typicode.com/todos';
 
 type TodoListProps = {
-  keyword: string;
+  keyword?: string;
 };
 
 const TodoList = ({ keyword }: TodoListProps) => {

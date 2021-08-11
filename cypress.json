@@ -2,5 +2,8 @@
   "component": {
     "componentFolder": "src",
     "testFiles": "./__tests__/**/*spec.{ts,tsx}"
+  },
+  "env": {
+    "apiUrl": "https://jsonplaceholder.typicode.com"
   }
 }
