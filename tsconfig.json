@@ -20,7 +20,10 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": "src",
+<<<<<<< HEAD
     "types": ["cypress", "@testing-library/cypress"],
+=======
+>>>>>>> 1b9da99e4c564c4bebfbbb5d7bf9493ccf7daf6b
   },
   "include": [
     "src"

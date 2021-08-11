@@ -1,4 +1,4 @@
-import { ChangeEvent, FC, useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 
 type SearchBoxProps = {
   placeholder: string;
@@ -6,11 +6,7 @@ type SearchBoxProps = {
   onSearch: (keyword: string) => void;
 };
 
-const SearchBox: FC<SearchBoxProps> = ({
-  placeholder,
-  buttonText,
-  onSearch,
-}) => {
+const SearchBox = ({ placeholder, buttonText, onSearch }: SearchBoxProps) => {
   const [keyword, setKeyword] = useState('');
 
   const changeKeyword = (event: ChangeEvent<HTMLInputElement>) => {
