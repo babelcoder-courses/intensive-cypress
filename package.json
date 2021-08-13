@@ -11,6 +11,7 @@
   "author": "Nuttavut Thongjor",
   "license": "ISC",
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.0",
     "@types/faker": "^5.5.7",
     "@types/query-string": "^6.3.0",
     "@typescript-eslint/eslint-plugin": "^4.29.0",

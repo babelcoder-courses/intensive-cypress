@@ -10,7 +10,8 @@
     ],
     "types": [
       "node",
-      "cypress"
+      "cypress",
+      "@testing-library/cypress"
     ],
     "baseUrl": "./cypress"
   },

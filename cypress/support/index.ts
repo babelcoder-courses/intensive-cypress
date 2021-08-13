@@ -17,6 +17,7 @@
 import './commands';
 import 'cypress-file-upload';
 import 'cypress-intercept-formdata';
+import '@testing-library/cypress/add-commands';
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
