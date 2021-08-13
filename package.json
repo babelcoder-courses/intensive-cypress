@@ -16,10 +16,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test ./src/__tests__/ --testMatch='**/__tests__/**/*.spec.ts?(x)'",
-    "eject": "react-scripts eject",
+    "start": "cross-env BROWSER=none craco start",
+    "build": "craco build",
+    "test": "start-server-and-test start http://localhost:3000 cypress:run-ct",
+    "eject": "craco eject",
     "cypress:open-ct": "cypress open-ct",
     "cypress:run-ct": "cypress run-ct"
   },
@@ -42,6 +42,7 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^5.9.0",
     "@cypress/react": "^5.9.3",
     "@cypress/webpack-dev-server": "^1.4.0",
     "@testing-library/cypress": "^8.0.0",
@@ -50,6 +51,9 @@
     "@types/styled-components": "^5.1.12",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
+    "babel-plugin-jsx-remove-data-test-id": "^3.0.0",
+    "craco": "^0.0.3",
+    "cross-env": "^7.0.3",
     "cypress": "^8.2.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
@@ -63,6 +67,7 @@
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "faker": "^5.5.3",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "start-server-and-test": "^1.13.1"
   }
 }

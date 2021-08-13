@@ -25,9 +25,11 @@ const TodoList = ({ keyword }: TodoListProps) => {
   }, [fetchTodos]);
 
   return (
-    <ul>
+    <ul data-testid="todo-list">
       {todos.map((todo) => (
-        <li key={todo.id}>{todo.title}</li>
+        <li key={todo.id} data-testid="todo-item">
+          {todo.title}
+        </li>
       ))}
     </ul>
   );
