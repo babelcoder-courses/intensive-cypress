@@ -11,12 +11,12 @@
   "author": "Nuttavut Thongjor",
   "license": "ISC",
   "devDependencies": {
-    "@testing-library/cypress": "^8.0.0",
-    "@types/faker": "^5.5.7",
+    "@testing-library/cypress": "^8.0.1",
+    "@types/faker": "^5.5.9",
     "@types/query-string": "^6.3.0",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
-    "cypress": "^8.3.0",
+    "cypress": "^8.7.0",
     "cypress-file-upload": "^5.0.8",
     "cypress-intercept-formdata": "^0.3.0",
     "eslint": "^7.32.0",
@@ -24,8 +24,8 @@
     "eslint-plugin-cypress": "^2.11.3",
     "eslint-plugin-prettier": "^3.4.0",
     "faker": "^5.5.3",
-    "prettier": "^2.3.2",
+    "prettier": "^2.4.1",
     "query-string": "^7.0.1",
-    "typescript": "^4.3.5"
+    "typescript": "^4.4.4"
   }
 }
